@@ -13,10 +13,10 @@ function Detail() {
     useEffect(()=>{
         // https://yts.mx/api/v2/movie_details.json?movie_id=
         getMovie();
-        
+
     },[])
 
-    return <h1>Detail {id}</h1>
+    return <h1>Movie Detail {id}</h1>
 }
 
 export default Detail;
